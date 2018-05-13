@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28535" started-at="2018-05-13T09:20:17Z" finished-at="2018-05-13T09:20:45Z">
+  <suite name="Default suite" duration-ms="15364" started-at="2018-05-13T14:58:55Z" finished-at="2018-05-13T14:59:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28535" started-at="2018-05-13T09:20:17Z" finished-at="2018-05-13T09:20:45Z">
-      <class name="wait.FluentWaitDemo">
-        <test-method status="PASS" signature="f()[pri:0, instance:wait.FluentWaitDemo@6043cd28]" name="f" duration-ms="28438" started-at="2018-05-13T09:20:17Z" finished-at="2018-05-13T09:20:45Z">
+    <test name="Default test" duration-ms="15364" started-at="2018-05-13T14:58:55Z" finished-at="2018-05-13T14:59:10Z">
+      <class name="headlessBrowser.HtmlUnitBrowserDemo">
+        <test-method status="PASS" signature="browser()[pri:0, instance:headlessBrowser.HtmlUnitBrowserDemo@6043cd28]" name="browser" duration-ms="15328" started-at="2018-05-13T14:58:55Z" finished-at="2018-05-13T14:59:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- wait.FluentWaitDemo -->
+        </test-method> <!-- browser -->
+      </class> <!-- headlessBrowser.HtmlUnitBrowserDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

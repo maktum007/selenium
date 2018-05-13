@@ -27,8 +27,9 @@ public class FluentWaitDemo
 		//Fluent Wait
 		driver.findElement(By.xpath("//button[text()='Click me to start timer']")).click();
 		FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver);
-		wait.pollingEvery(1, TimeUnit.SECONDS);
-		wait.withTimeout(10, TimeUnit.SECONDS);
+			wait.pollingEvery(1, TimeUnit.SECONDS);
+			wait.withTimeout(10, TimeUnit.SECONDS);
+			wait.ignoring(NoSuchElementException.class);
 		WebElement element = wait.until(new Function<WebDriver, WebElement>() {
 		public WebElement apply(WebDriver arg0) 
 		{
