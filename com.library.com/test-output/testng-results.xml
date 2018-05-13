@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16811" started-at="2018-05-13T04:27:18Z" finished-at="2018-05-13T04:27:35Z">
+  <suite name="Default suite" duration-ms="193" started-at="2018-05-13T05:00:36Z" finished-at="2018-05-13T05:00:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16811" started-at="2018-05-13T04:27:18Z" finished-at="2018-05-13T04:27:35Z">
-      <class name="com.selenium.com.HandlingBootstrapDropdown">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.selenium.com.HandlingBootstrapDropdown@6043cd28]" name="f" duration-ms="16764" started-at="2018-05-13T04:27:19Z" finished-at="2018-05-13T04:27:35Z">
+    <test name="Default test" duration-ms="193" started-at="2018-05-13T05:00:36Z" finished-at="2018-05-13T05:00:36Z">
+      <class name="com.selenium.com.CompareTwoImages">
+        <test-method status="PASS" signature="imgProcessing()[pri:0, instance:com.selenium.com.CompareTwoImages@60285225]" name="imgProcessing" duration-ms="156" started-at="2018-05-13T05:00:36Z" finished-at="2018-05-13T05:00:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.selenium.com.HandlingBootstrapDropdown -->
+        </test-method> <!-- imgProcessing -->
+      </class> <!-- com.selenium.com.CompareTwoImages -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
